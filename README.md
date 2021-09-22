@@ -1,7 +1,10 @@
 # City Weather
 
 A weather application to recover the temperature, humidity and what the weather is like in a city
-<img src="https://user-images.githubusercontent.com/70761069/134309869-3daad1fc-f129-484b-a766-ffe74afc02be.png" width="700">
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/70761069/134309869-3daad1fc-f129-484b-a766-ffe74afc02be.png" width="500">
+</p>
 
 
 ## Project setup
