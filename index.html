@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Météo</title>
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <h1>METEO</h1>
-    <input type="text" id="champ" placeholder="Ville">
-    <button type="button" id="btn">Rechercher</button>
-    <div id="temp"></div>
-    <div id="humidity"></div>
-    <div id="description"></div>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Météo</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+
+<body>
+  <div class="main-box">
+    <div class="box-title">
+      <h1>METEO</h1>
+    </div>
+    <section class="content">
+      <input type="text" class="form__field" placeholder="Ville" id='champ' required />
+      <button class="button_search" id="btn"><span>Rechercher</span></button>
+      <div id="temp"></div>
+      <div id="humidity"></div>
+    </section>
+  </div>
+</body>
+
 </html>
