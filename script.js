@@ -6,5 +6,7 @@ btn.onclick = () => {
     humidity.textContent = "Humidité : " + data.main.humidity + " %";
     description.textContent = "Description : " + data.weather[0].description;
     console.log(data);
+    console.log(data.weather[0].icon);
+    document.getElementById("myImg").src = "http://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png"
   })
 }
