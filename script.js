@@ -8,8 +8,12 @@ champ.onchange = () => {
     description.textContent = data.weather[0].description;
     console.log(data);
     console.log(data.weather[0].icon);
-    document.getElementById("myImg").src = "http://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png"
+    document.getElementById("myImg").src = "http://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png";
+    document.getElementById("error").style.display = "none";
+    document.getElementById("none").style.display = "block"
   }).catch(function() {
-    console.error("error");
+    console.log("error");
+    document.getElementById("error").textContent = "Cette ville n'existe pas";
+    document.getElementById("none").style.display = "none"
 });
 }
