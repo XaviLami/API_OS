@@ -91,3 +91,8 @@ body {
   opacity: 1;
   right: 0;
 }
+#myImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
