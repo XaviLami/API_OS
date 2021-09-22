@@ -10,6 +10,6 @@ champ.onchange = () => {
     console.log(data.weather[0].icon);
     document.getElementById("myImg").src = "http://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png"
   }).catch(function() {
-    console.log("error");
+    console.error("error");
 });
 }
