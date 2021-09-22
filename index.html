@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>METEO</h1>
-    <input type="text" id="champ" placeholder="Ville">
-    <button type="submit" id="btn">Rechercher</button>
-    <div id="temp"></div>
-    <div id="humidity"></div>
-    <div id="description"></div>
-    <img id="myImg" src="">
+    <div class="main-box">
+     <div class="box-title">
+       <h1>METEO</h1>
+     </div>
+     <section class="content">
+       <input type="text" class="form__field" placeholder="Ville" id='champ' required />
+       <button class="button_search" id="btn"><span>Rechercher</span></button>
+       <div id="temp"></div>
+       <div id="humidity"></div>
+       <div id="description"></div>
+       <img id="myImg" src="">
+     </section>
+   </div>
   </body>
 </html>
