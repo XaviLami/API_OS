@@ -14,6 +14,6 @@ champ.onchange = () => {
   }).catch(function() {
     console.log("error");
     document.getElementById("error").textContent = "Cette ville n'existe pas";
-    document.getElementById("none").style.display = "none"
+    document.getElementById("none").style.display = "none";
 });
 }
