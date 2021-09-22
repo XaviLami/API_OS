@@ -13,7 +13,7 @@ champ.onchange = () => {
     document.getElementById("none").style.display = "block"
   }).catch(function() {
     console.log("error");
-    document.getElementById("error").textContent = "Cette ville n'existe pas";
+    document.getElementById("error").textContent = "This city does not exist";
     document.getElementById("none").style.display = "none"
 });
 }
