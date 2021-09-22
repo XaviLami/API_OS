@@ -1,4 +1,5 @@
-btn.onclick = () => {
+
+champ.onchange = () => {
   fetch("http://api.openweathermap.org/data/2.5/weather?q=" + champ.value + "&lang=en&units=metric&appid=be2412c99a491fffa5e50a5236834757")
   .then(reponse => reponse.json())
   .then(data => {
@@ -8,5 +9,7 @@ btn.onclick = () => {
     console.log(data);
     console.log(data.weather[0].icon);
     document.getElementById("myImg").src = "http://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png"
-  })
+  }).catch(function() {
+    console.log("error");
+});
 }
