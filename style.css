@@ -3,6 +3,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(219, 219, 219);
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .main-box {
@@ -91,8 +94,7 @@ body {
   opacity: 1;
   right: 0;
 }
-#myImg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#temp, #humidity, #description {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
